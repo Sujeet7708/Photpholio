@@ -641,3 +641,46 @@ header{
     }
         
 }
+@media(max-width:500px)
+{
+    .navigation {
+        display: none;
+    }
+    .inner img{
+        display: none;
+    }
+    .ico {
+        display: none;
+    }
+    .circle{
+        display: none;
+    }
+    .about {
+        padding: 5px 13px;
+        left: 0;
+    }
+    .inner2 .heading
+    {
+        top:-82px;
+    }
+    .anc {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .conta {
+        flex-direction: column;
+        height: 100%;
+    }
+    .fa-solid {
+        position: absolute;
+        top: 7%;
+    }
+    .project1 p {
+        left: 10px;
+        font-size: 20px;
+    }
+    .project h1 {
+        top: -72px;
+    }
+    
+}
