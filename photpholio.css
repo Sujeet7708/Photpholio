@@ -682,5 +682,17 @@ header{
     .project h1 {
         top: -72px;
     }
+    .contacter .icons{
+        display: none;
+    }
+    .contacter{
+        position: relative;
+    }
+    .form{
+        display: flex;
+        left: 0%;
+        padding: 10px 117px;
+    }
+    
     
 }
